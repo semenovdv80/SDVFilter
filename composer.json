@@ -1,0 +1,23 @@
+{
+  "name": "semenovdv80/sdvfilter",
+  "type": "library",
+  "description": "This is a simple package for filter an array",
+  "version": "1.0.0",
+  "keywords": ["filter","array"],
+  "homepage": "https://github.com/semenovdv80/SDVFilter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitriy Semenov",
+      "email": "semenovdv80@gmail.com",
+      "homepage": "http://github.com/semenovdv80/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"SDVFilter\\": "src/SDVFilter"}
+  },
+  "require": {
+    "php": ">=5.3.3"
+  }
+}
